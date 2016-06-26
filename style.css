@@ -4,18 +4,91 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 
 /* CSS de la barre de navigation */
 
 
+
+.navbar-header {
+	color: white;
+}
+
+#myNavbar ul li a {
+	color: white;
+}
+
+#myNavbar a > {
+	color: white;
+}
+
+#myNavbar ul li a:hover {
+	background-color: green;
+}
+
 .loupe {
-	/*float: right;*/
-    /*background-color: green;*/
-    /*width: 50px;*/
-    /*height: 50px;*/
-    color: #fff;
-    font-weight: 700;
+
+    
 	text-align: center;
 }
+
+/* CSS du bloc IMAGES/VIDEOS/TEXTE */
+
+.container {
+	height: 1095px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.images {
+	height: 315px;
+	background-color: red;
+}
+
+.zone_blanche {
+	height: 780px;
+}
+
+.audiotheme {
+	background-color: yellow;
+}
+
+.aside_right {
+	background-color: white;
+}
+
+/* CSS du bloc de gauche */
+
+aside { 
+	background-color: black;
+}
+
+/* CSS du footer */
+
+footer {
+	height: 50px;
+	background-color: black;
+}
+
+footer h5 {
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
