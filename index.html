@@ -1,67 +1,62 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-	  
-	<title>Challenge_5</title>
-  	<meta charset="utf-8">
-  	<meta author="Stéphane & Patrice">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<html>
 
-  	<!-- Style CSS -->
-   	<link rel="stylesheet" href="style.css">
-  	<link rel="stylesheet" href="css/font-awesome.css">
-  	<link rel="stylesheet" href="css/bootstrap-theme.css" />
-  	<link rel="stylesheet" href="css/bootstrap.css">
+<head>
+    <title>Challenge-5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- styles css -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- scripts javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- fonts lato -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
+</head>
 
-  	<!-- Script Javascript -->
-  	<script src="js/jquery.min.js"></script>
-  	<script src="js/bootstrap.js"></script>
+<body>
+  
+<div class="">
+        <!-- BARRE DE NAVIGATION HORIZONTALE -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Progeny MMXIV</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">MUSIC</a></li>
+                    <li><a href="#">GIGS</a></li>
+                    <li><a href="#">PHOTOS</a></li>
+                    <li><a href="#">VIDEOS</a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-search loupe" aria-hidden="true"></i></a></li>
+                   </ul>
+                </div>
+            </div>
+        </nav>
 
-	<!-- Family Lato -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
-	
-	</head>
-	
-	
-	<body>
-		<div class="container-fluid">
+        <div class="separation"></div>
+        
+        <!-- BLOC IMAGES/VIDEOS/TEXTE -->
+        <div class="row_zone_blanche">
+            <div class="container-fluid col-xs-12 col-sm-12 col-md-10 col-md-push-2">
+                <div class="images col-xs-12 col-sm-12 col-md-12">
+                    
+                </div>
 
-		<!-- BARRE DE NAVIGATION HORIZONTALE -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Progeny MMXIV</a>
-			    </div>
-			    <div class="collapse navbar-collapse" id="myNavbar">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">HOME</a></li>
-			        <li><a href="#">ABOUT</a></li>
-			        <li><a href="#">MUSIC</a></li>
-			        <li><a href="#">GIGS</a></li>
-			        <li><a href="#">PHOTOS</a></li>
-			        <li><a href="#">VIDEOS</a></li>
-			        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-search loupe" aria-hidden="true"></i></a></li>
-			       </ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- BLOC IMAGES/VIDEOS/TEXTE -->
-		<div class="row">
-            <div class="container col-xs-12 col-sm-12 col-md-10 col-md-push-2">
-                <!-- featured section -->
-                <section class="images col-xs-12 col-sm-12 col-md-12">
-                    <!-- c'est là qu'on va mettre les 3 img -->
-                </section>
-
-                <section class="zone_blanche col-xs-12 col-sm-12 col-md-12">
+                <div class="zone_blanche col-xs-12 col-sm-12 col-md-12">
                     <!-- contenue princpal du site -->
                     <div class="audiotheme col-xs-12 col-sm-8 col-md-8">
                         <h2>AUDIOTHEME FRAMEWORK <br />DEMO</h2>
@@ -75,7 +70,7 @@
 
                         <p>In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
                     </div>
-                    
+
                     <!-- ASIDE DE DROITE -->
                     <aside class="aside_right col-xs-12 col-sm-4 col-md-4">
                         <h2>UPCOMING GIGS</h2>
@@ -103,23 +98,57 @@
                         <p>Overview showcasing a few of the features available in the <a href="#">AudioTheme Framework</a>  via the WordPress admin.</p>
                         
                     </aside>
-                </section>
+                </div>
+                </div>
+
+        <div class="aside_left">
+                <div class="container-fluid col-md-2 col-md-pull-10">
+                    <p>Twenty Fourteen Child Theme</p>
+                    <ul>
+                        <div class="liste">
+                            <li><a href="#">CREDITS</a></li>
+                        </div>
+                        <div class="liste">
+                            <li><a href="#">BLOG/NEWS</a></li>
+                        </div>
+                        <div class="liste">
+                            <li><a href="#">STYLE GUIDE</a></li>
+                        </div>
+                        <div class="liste">
+                            <li><a href="#">CONTACT</a></li>
+                        </div>
+                        <div class="liste">
+                            <li><a href="#">TRY AUDIOTHEME</a></li>
+                        </div>
+                        <div class="liste">
+                            <li><a href="#">GITHUB</a></li>
+                        </div>
+                        <div class=" liste liste2">
+                            <li><a href="#">WORDPRESS</a></li>
+                        </div>
+                    </ul>
+                    <div class="input-group">
+                        <input class="form-control" placeholder="Search..." name="recherche" type="text"> </input>
+                    </div>
+                    <h5> RECENT RELEASE </h5>
+                    <img class="navbar_img" src="elements/images/wide-listener-1024x1024.jpg" />
+                    <p> release 9.10.13 </p>
+                    <p> Listen now </p>
+                    <h5> SPECIAL THANKS </h5>
+                    <p> Drew Kennedy </p>
+                    <p> Rodney Hayden </p>
+                    <p> Modern Trade </p>
+                    <p class="twenty"> Twenty Fourteen Wordpress Child Theme by <a href="#"> AudioTheme. </a> </p>
+                </div>
             </div>
+        
 
-		
-		<!-- BLOC DE GAUCHE -->
-		<aside class="aside_left col-xs-12 col-sm-12 col-md-2 col-md-pull-10">
-                
-		</aside>
-		</div>
+        <!-- footer -->
+        <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+            <p><a href="#">Proudly powered by Wordpress</a></p>
+        </footer>
+    
+    </div>
+</body>
 
-		<!-- FOOTER -->
-        <footer class="row">
-            <h5><a href="#">Proudly powered by WordPress</a></h5>
-		</footer>
-
-		</div>
-	</body>
 </html>
-
-		

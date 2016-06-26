@@ -1,27 +1,14 @@
 /* CSS de la page HTML */
 
 body {
-	height: 100%;
-	width: 100%;
 	font-family: 'Lato', sans-serif;
-	margin: 0;
-	padding: 0;
+	
 }
 
 
 /* CSS de la barre de navigation */
 
-
-
-.navbar-header {
-	color: white;
-}
-
-#myNavbar ul li a {
-	color: white;
-}
-
-#myNavbar a > {
+#myNavbar a {
 	color: white;
 }
 
@@ -29,26 +16,28 @@ body {
 	background-color: green;
 }
 
-.loupe {
 
-    
+
+.loupe {
 	text-align: center;
 }
 
+
+.separation {
+	height: 50px;
+}
+
+
 /* CSS du bloc IMAGES/VIDEOS/TEXTE */
 
-.container {
+.row_zone_blanche {
 	height: 1095px;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	margin-right: 0;
-	padding-right: 0;
-}
+	}
 
 .images {
 	height: 315px;
 	background-color: red;
+	
 }
 
 .zone_blanche {
@@ -56,7 +45,7 @@ body {
 }
 
 .audiotheme {
-	background-color: yellow;
+	background-color: white;
 }
 
 .aside_right {
@@ -65,7 +54,8 @@ body {
 
 /* CSS du bloc de gauche */
 
-aside { 
+.aside_left {
+	height: 1095px; 
 	background-color: black;
 }
 
@@ -76,14 +66,14 @@ footer {
 	background-color: black;
 }
 
-footer h5 {
+footer p {
 	color: white;
-	padding-left: 30px;
+	padding-left: 15px;
 	padding-top: 8px;
 }
 
 footer a {
-	color: white;
+	color: grey;
 	text-decoration: none;
 }
 
