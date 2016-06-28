@@ -18,3 +18,6 @@ Rollovers :
 - Il y a un changement d'opacité 
 
 Vous pouvez tester le thème ici pour voir les effets: https://demo.audiotheme.com/progeny-mmxiv/ Je compte sur vous pour ne pas recopier tout le CSS :)
+
+travail partagé : pour stéphane = barre de navigation en haut et à gauche et le footer
+pour patrice = la zone centrale images / audiotheme et texte de droite
